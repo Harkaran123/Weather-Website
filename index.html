@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-Info</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Edu+NSW+ACT+Foundation&family=Libre+Franklin:wght@100;400&family=Lobster+Two&family=Open+Sans:wght@300;400&family=Pacifico&family=Poppins:wght@100&family=Ubuntu:wght@300&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/056100c4f3.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <div class="header">
+
+        <h1>Know Weather of your City</h1>
+        <p>Type the city name in the below box</p>
+
+    </div>
+
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="enter City Name">
+            <a id="button"><i class="fa-solid fa-magnifying-glass"></i></a>
+        </div>
+
+        <div class="weather">
+            <img src="images/rain.png" alt="" class="weatherIcon">
+            <h1 class="temp">28°C</h1>
+            <h2 class="city">Sambalpur</h2>
+
+            <div class="details">
+                <div class="col">
+                    <img src="images/humidity.png" alt="">
+                    <div>
+                        <p class="humidity">55%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="images/wind.png" alt="">
+                    <div>
+                        <p class="wind">55Km/hr</p>
+                        <p>Wind</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
